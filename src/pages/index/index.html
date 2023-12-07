@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <meta content="ie=edge" http-equiv="X-UA-Compatible"/>
+    <title>SafeRBot</title>
+    <!--    <meta content="Simple, Powerful eCommerce & CMS Solution, We provide you with all the tools you need to create your brand site and online store."-->
+    <!--          name="description"/>-->
+    <!--    <meta content="technology, startup, COVID-19, pandemic, digital, online, brand building, time-efficient, secure, user experience, innovation, customer focus, accountability, collaboration, continuous improvement, social responsibility, sustainability, partnership, business solutions, online marketplace, digital storefront, shopping cart, payment gateway, order management, shipping and fulfillment, inventory management, product listing, website builder, mobile responsive, secure checkout, conversion optimization, customer retention, marketing tools, analytics, multi-channel selling, B2B, B2C"-->
+    <!--          name="keywords"/>-->
+</head>
+<body class="leading-normal tracking-normal text-white gradient"
+      style="font-family: 'Source Sans Pro', sans-serif;">
+<!--Nav-->
+<nav class="w-full text-white pt-5" id="header">
+    <div class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-2">
+        <div class="pl-4 flex items-center wshops-logo">
+            <a class="toggleColour text-white no-underline hover:no-underline font-bold text-2xl lg:text-4xl" href="#">
+                <!--                <img class="icon" id="wshops-logo" src="/assets/images/wshops-logo-w-icon.svg"/>-->
+                <span>SafeRBot</span>
+            </a>
+        </div>
+        <div class="block lg:hidden pr-4">
+            <button class="flex items-center p-1 text-pink-800 hover:text-gray-900 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
+                    id="nav-toggle">
+                <svg class="fill-current h-6 w-6" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                    <title>Menu</title>
+                    <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/>
+                </svg>
+            </button>
+        </div>
+        <div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden mt-2 lg:mt-0 bg-white lg:bg-transparent p-4 lg:p-0 z-20 text-white"
+             id="nav-content">
+            <ul class="list-reset lg:flex justify-end flex-1 items-center text-white">
+                <li class="mr-3">
+                    <a class="inline-block py-2 px-4 text-white font-bold no-underline" href="/index">Home</a>
+                </li>
+                <!--                <li class="mr-3">-->
+                <!--                    <button class="mx-auto lg:mx-0 bg-white text-gray-800 font-bold rounded-full mt-4 lg:mt-0 py-2 px-6 shadow opacity-80 focus:outline-none focus:shadow-outline transform transition hover:scale-110 duration-300 ease-in-out"-->
+                <!--                            id="register-btn" onclick="window.showSubscribeModal()">Register-->
+                <!--                    </button>-->
+                <!--                </li>-->
+                <!--                <li class="mr-3">-->
+                <!--                    <button class="mx-auto lg:mx-0 bg-white text-gray-800 font-bold rounded-full mt-4 lg:mt-0 py-2 px-6 shadow opacity-80 focus:outline-none focus:shadow-outline transform transition hover:scale-110 duration-300 ease-in-out"-->
+                <!--                            id="login-btn" onclick="window.showSubscribeModal()">Login-->
+                <!--                    </button>-->
+                <!--                </li>-->
+            </ul>
+
+        </div>
+    </div>
+    <hr class="border-b border-gray-100 opacity-0 my-0 py-0"/>
+</nav>
+<!--Hero-->
+<div class="pt-18">
+    <div class="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
+        <!--Left Col-->
+        <div class="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left">
+            <p class="uppercase tracking-loose w-full">Your AI Safety Companion</p>
+            <h1 class="my-4 text-5xl font-bold leading-tight">
+                SafeRBot
+            </h1>
+            <p class="leading-normal text-2xl mb-8">
+                Empowering You to Report and Respond to Safety Incidents with Confidence and Ease.
+            </p>
+            <button class="mx-auto lg:mx-0 bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-125 duration-300 ease-in-out"
+                    onclick="window.showSubscribeModal()">
+                CONTACT US
+            </button>
+        </div>
+        <!--Right Col-->
+        <div class="w-full md:w-3/5 py-6 text-center">
+            <lottie-player class="w-[50rem]" id="banner-anime" mode="normal"></lottie-player>
+        </div>
+    </div>
+</div>
+<div class="relative -mt-12 lg:-mt-24">
+    <svg version="1.1" viewBox="0 0 1428 174" xmlns="http://www.w3.org/2000/svg"
+    >
+        <g fill="none" fill-rule="evenodd" stroke="none" stroke-width="1">
+            <g fill="#FFFFFF" fill-rule="nonzero" transform="translate(-2.000000, 44.000000)">
+                <path d="M0,0 C90.7283404,0.927527913 147.912752,27.187927 291.910178,59.9119003 C387.908462,81.7278826 543.605069,89.334785 759,82.7326078 C469.336065,156.254352 216.336065,153.6679 0,74.9732496"
+                      opacity="0.100000001"></path>
+                <path
+                        d="M100,104.708498 C277.413333,72.2345949 426.147877,52.5246657 546.203633,45.5787101 C666.259389,38.6327546 810.524845,41.7979068 979,55.0741668 C931.069965,56.122511 810.303266,74.8455141 616.699903,111.243176 C423.096539,147.640838 250.863238,145.462612 100,104.708498 Z"
+                        opacity="0.100000001"
+                ></path>
+                <path d="M1046,51.6521276 C1130.83045,29.328812 1279.08318,17.607883 1439,40.1656806 L1439,120 C1271.17211,77.9435312 1140.17211,55.1609071 1046,51.6521276 Z"
+                      id="Path-4" opacity="0.200000003"></path>
+            </g>
+            <g fill="#FFFFFF" fill-rule="nonzero" transform="translate(-4.000000, 76.000000)">
+                <path
+                        d="M0.457,34.035 C57.086,53.198 98.208,65.809 123.822,71.865 C181.454,85.495 234.295,90.29 272.033,93.459 C311.355,96.759 396.635,95.801 461.025,91.663 C486.76,90.01 518.727,86.372 556.926,80.752 C595.747,74.596 622.372,70.008 636.799,66.991 C663.913,61.324 712.501,49.503 727.605,46.128 C780.47,34.317 818.839,22.532 856.324,15.904 C922.689,4.169 955.676,2.522 1011.185,0.432 C1060.705,1.477 1097.39,3.129 1121.236,5.387 C1161.703,9.219 1208.621,17.821 1235.4,22.304 C1285.855,30.748 1354.351,47.432 1440.886,72.354 L1441.191,104.352 L1.121,104.031 L0.457,34.035 Z"
+                ></path>
+            </g>
+        </g>
+    </svg>
+</div>
+<!--<section class="bg-white border-b py-8">-->
+<!--    <div class="container max-w-5xl mx-auto m-8">-->
+<!--        <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">-->
+<!--           Mission Statement-->
+<!--        </h2>-->
+<!--        <div class="w-full mb-4">-->
+<!--            <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>-->
+<!--        </div>-->
+<!--        <div class="flex flex-wrap">-->
+<!--            <div class="p-6">-->
+<!--                <p class="text-gray-600 mb-8 text-center">-->
+<!--                    Dedicated to pioneering AI solutions for top-tier safety reporting services. At the heart of SafeRBot lies the commitment to Human-Centered AI, fostering efficient and sensitive communication for safety incidents.-->
+<!--                </p>-->
+<!--            </div>-->
+
+<!--        </div>-->
+<!--    </div>-->
+<!--</section>-->
+
+<section class="bg-white border-b py-8">
+    <div class="container max-w-5xl mx-auto m-8">
+        <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
+            ABOUT
+        </h2>
+        <div class="w-full mb-4">
+            <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
+        </div>
+        <div class="flex flex-wrap" style="align-items: flex-end;">
+            <div class="w-5/6 sm:w-1/2 p-6">
+                <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
+                    Mission Statement
+                </h3>
+                <p class="text-gray-600 mb-8">
+                    Dedicated to pioneering AI solutions for top-tier safety reporting services. At the heart of
+                    SafeRBot lies the commitment to Human-Centered AI, fostering efficient and sensitive communication
+                    for safety incidents.
+                </p>
+            </div>
+            <div class="w-full sm:w-1/2 p-6">
+                <lottie-player class="w-full" id="mission-statement-animation" mode="normal"
+                               style="height: 250px;"></lottie-player>
+            </div>
+        </div>
+        <div class="flex flex-wrap flex-col-reverse sm:flex-row">
+            <div class="w-full sm:w-1/2 p-6 mt-6">
+                <lottie-player class="w-full" id="how-it-works-animation" mode="normal"
+                               style="height: 250px;"></lottie-player>
+            </div>
+            <div class="w-full sm:w-1/2 p-6 mt-6">
+                <div class="align-middle">
+                    <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
+                        How It Works
+                    </h3>
+                    <p class="text-gray-600 mt-5">
+                        SafeRBot offers streamlined safety reporting through an AI-powered chat, ensuring
+                        confidentiality and ease. For dispatchers, it delivers smart automation and critical data
+                        management to boost efficiency and reduce burnout. It's where cutting-edge AI meets
+                        compassionate communication.
+                        <br/><br/>Following the design principles of Human-Centered AI, we design and implement SafeRBot
+                        to enable efficient and effective communications in two major scenarios: <br/><br/>
+                        1) Community members, who have communication barriers to talk to real humans, can choose to be
+                        guided by an AI agent to file a complete incident report without other humans' involvement <br/><br/>
+                        2) Dispatchers can choose to receive AI support when handling incident reports, e.g., reducing
+                        repetitious tasks and increasing awareness of potential job potential burnout.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="mx-auto max-w-7xl px-6 lg:px-8">
+            <div class="mx-auto max-w-2xl lg:max-w-none">
+                <dl class="mt-16 grid grid-cols-1 gap-0.5 overflow-hidden rounded-2xl text-center sm:grid-cols-2 lg:grid-cols-4">
+                    <div class="flex flex-col bg-gray-400/5 p-8">
+                        <dt class="text-sm font-semibold leading-6 text-gray-600">Total Funding Acquired</dt>
+                        <dd class="order-first text-3xl font-semibold tracking-tight text-gray-900">$689,137</dd>
+                    </div>
+                    <div class="flex flex-col bg-gray-400/5 p-8">
+                        <dt class="text-sm font-semibold leading-6 text-gray-600">2023 AI Dev Grant</dt>
+                        <dd class="order-first text-3xl font-semibold tracking-tight text-gray-900">$50,000</dd>
+                    </div>
+                    <div class="flex flex-col bg-gray-400/5 p-8">
+                        <dt class="text-sm font-semibold leading-6 text-gray-600">Patent Filed</dt>
+                        <dd class="order-first text-3xl font-semibold tracking-tight text-gray-900">1+</dd>
+                    </div>
+                    <div class="flex flex-col bg-gray-400/5 p-8">
+                        <dt class="text-sm font-semibold leading-6 text-gray-600">Paper Published</dt>
+                        <dd class="order-first text-3xl font-semibold tracking-tight text-gray-900">9+</dd>
+                    </div>
+                </dl>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="bg-white border-b py-8">
+    <div class="container mx-auto px-2 pt-4 pb-12 text-gray-800">
+        <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
+            Research & Development
+        </h2>
+        <div class="w-full mb-4">
+            <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
+        </div>
+        <div class="mx-auto max-w-7xl px-6 lg:px-8">
+            <div class="mx-auto max-w-4xl divide-y divide-gray-900/10">
+                <dl class="mt-10 space-y-6 divide-y divide-gray-900/10">
+                    <div class="pt-6">
+                        <dt>
+                            <div class="flex w-full items-start justify-between text-left text-gray-900">
+                                <span class="text-base font-semibold leading-7">Related Research Projects</span>
+                                <span class="ml-6 flex h-7 items-center"></span>
+                            </div>
+                        </dt>
+                        <dd class="mt-2 pr-12">
+                            <ul class="list-disc list-outside">
+                                <li>
+                                    <span class="text-base leading-7 text-gray-600">PI: Yun Huang. National Science Foundation (NSF): “CRII: CHS: Mobile Crowdsourcing System for Campus Safety”, Sep. 2015 - Aug. 2017, $189,141.</span>
+                                </li>
+                                <li>
+                                    <span class="text-base leading-7 text-gray-600">PI: Yun Huang. National Science Foundation (NSF) I-Corps: “Beacon-based Smart Location based Service”, single PI, Jan. 2018 – Jan 2021, $50,000.</span>
+                                </li>
+                                <li>
+                                    <span class="text-base leading-7 text-gray-600">PI: Yun Huang. Institute of Museum and Library Services (IMLS): Early CAREER Research Development: “Empowering Libraries with Conversational AI”, Aug 2022 – Dec 2025, $399,996.</span>
+                                </li>
+                            </ul>
+                        </dd>
+                    </div>
+
+                    <div class="pt-6">
+                        <dt>
+                            <div class="flex w-full items-start justify-between text-left text-gray-900">
+                                <span class="text-base font-semibold leading-7">Publications</span>
+                                <span class="ml-6 flex h-7 items-center"></span>
+                            </div>
+                        </dt>
+                        <dd class="mt-2 pr-12">
+                            <ul class="list-disc list-outside">
+                                <li>
+                                    <span class="text-base leading-7 text-gray-600">Liu, Yiren, Ryan Mayfield, Yun Huang, "Discovering the Hidden Facts of User-Dispatcher Interactions via Text-based Reporting Systems for Community Safety." In Proceedings of the ACM on Human Computer Interaction (PACM HCI), CSCW (2023).</span>
+                                </li>
+                                <li>
+                                    <span class="text-base leading-7 text-gray-600">Zheng, Qingxiao, Yiliu Tang, Yiren Liu, Weizi Liu, and Yun Huang. "UX Research on Conversational Human-AI Interaction: A Literature Review of the ACM Digital Library." CHI '22: In Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems (2022).</span>
+                                </li>
+                                <li>
+                                    <span class="text-base leading-7 text-gray-600">Ming, Shufan, Ryan DW Mayfield, Haocong Cheng, Ke-Rou Wang, and Yun Huang. "Examining interactions between community members and university safety organizations through community-sourced risk systems." In Proceedings of the ACM on Human Computer Interaction (PACM HCI), CSCW (2021): 1-23.</span>
+                                </li>
+                                <li>
+                                    <span class="text-base leading-7 text-gray-600">Qunfang Wu, Yun Huang (2020): Examining Police Agencies Dialogic Accounting Practices in Facebook Conversations. Digital Government: Research and Practice, Volume 1, No. 2,Article 16. 17 Pages.</span>
+                                </li>
+                                <li>
+                                    <span class="text-base leading-7 text-gray-600">Qunfang Wu, Yun Huang (2020): Examining Police Agencies Dialogic Accounting Practices in Facebook Conversations. Digital Government: Research and Practice, Volume 1, No. 2,Article 16. 17 Pages.</span>
+                                </li>
+                                <li>
+                                    <span class="text-base leading-7 text-gray-600">Qunfang Wu, Saurabh Gupta, Yun Huang (2018): Examining Conversations between Police Agencies and the Public on Facebook. 19th Annual International Conference on Digital Government Research: Governance in the Data Age (DG.O). Pages 1-10.</span>
+                                </li>
+                                <li>
+                                    <span class="text-base leading-7 text-gray-600">Yun Huang, Qunfang Wu (2018): Understanding Interactions Between Municipal Police Departments and the Public on Twitter. iConference 2018. Pages 37-46. Lee Dirks Award for Best Paper </span>
+                                </li>
+                                <li>
+                                    <span class="text-base leading-7 text-gray-600">Yun Huang, Qunfang Wu, Youyang Hou (2017): Examining Twitter Mentions Between Police Agencies and Public Users through the Lens of Stakeholder Theory. The 18th Annual International Conference on Digital Governmental Research (DG.O 2017). Pages 30-38.</span>
+                                </li>
+                                <li>
+                                    <span class="text-base leading-7 text-gray-600">Huichuan Xia, Yun Huang, Yang Wang (2017): Victim Privacy in Crowdsourcing Based Public Safety Reporting: A Case Study of LiveSafe. Workshop on Inclusive Privacy and Security (WIPS) in the Symposium On Usable Privacy and Security (SOUPS), 2017. 3 Pages.</span>
+                                </li>
+                                <li>
+                                    <span class="text-base leading-7 text-gray-600">Yun Huang, Sen Huo, Yaxing Yao, Niu Chao, Yang Wang, Jennifer Grygiel, Steve Sawyer (2016): Municipal Police Departments on Facebook: What Are They Posting and Are People Engaging?. The 17th Annual International Conference on Digital Government Society (DG.O 2016). Pages 366-374</span>
+                                </li>
+                                <li>
+                                    <span class="text-base leading-7 text-gray-600">Elliot Tan, Huichuan Xia, Cheng Ji, Ritu Virendra Joshi, Yun Huang (2015): Designing a Mobile Crowdsourcing System for Campus Safety. iConference 2015. 13 Pages. The Finalist for Lee Dirks Award for Best Paper</span>
+                                </li>
+                                <li>
+                                    <span class="text-base leading-7 text-gray-600">Yun Huang, Yang Wang, Corey White (2014): Designing a Mobile System for Public Safety Using Open Crime Data and Crowdsourcing. 2014 ACM International Joint Conference on Pervasive and Ubiquitous Computing (UbiComp 2014) adjunct proceeding. Pages 60-70.</span>
+                                </li>
+                            </ul>
+                        </dd>
+                    </div>
+
+                    <div class="pt-6">
+                        <dt>
+                            <div class="flex w-full items-start justify-between text-left text-gray-900">
+                                <span class="text-base font-semibold leading-7">Patents</span>
+                                <span class="ml-6 flex h-7 items-center"></span>
+                            </div>
+                        </dt>
+                        <dd class="mt-2 pr-12">
+                            <ul class="list-disc list-outside">
+                                <li>
+                                    <span class="text-base leading-7 text-gray-600">Yun Huang, Yiren Liu. “AI-Guided Dialogue System for Incident Reporting with Human-in-the-Loop”, filed a provisional patent application (63/457,292), April, 2023.</span>
+                                </li>
+                            </ul>
+                        </dd>
+                    </div>
+
+                </dl>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="bg-white py-8">
+    <div class="container max-w-5xl mx-auto m-8">
+        <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
+            OUR TEAM
+        </h2>
+        <div class="w-full mb-4">
+            <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
+        </div>
+
+        <div class="mx-auto max-w-7xl px-6 text-center lg:px-8">
+            <ul class="mx-auto mt-20 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3"
+                role="list">
+                <li>
+                    <img alt=""
+                         class="mx-auto h-56 w-56 rounded-full"
+                         src="/assets/images/YunHuang.jpg">
+                    <h3 class="mt-6 text-base font-semibold leading-7 tracking-tight text-gray-900">Dr. Yun Huang</h3>
+                    <p class="text-sm leading-6 text-gray-600">Associate Professor, iSchool</p>
+                </li>
+                <li>
+                    <img alt=""
+                         class="mx-auto h-56 w-56 rounded-full"
+                         src="/assets/images/YunHuang.jpg">
+                    <h3 class="mt-6 text-base font-semibold leading-7 tracking-tight text-gray-900">Dr. Yun Huang</h3>
+                    <p class="text-sm leading-6 text-gray-600">Associate Professor, iSchool</p>
+                </li>
+                <li>
+                    <img alt=""
+                         class="mx-auto h-56 w-56 rounded-full"
+                         src="/assets/images/YunHuang.jpg">
+                    <h3 class="mt-6 text-base font-semibold leading-7 tracking-tight text-gray-900">Dr. Yun Huang</h3>
+                    <p class="text-sm leading-6 text-gray-600">Associate Professor, iSchool</p>
+                </li>
+                <li>
+                    <img alt=""
+                         class="mx-auto h-56 w-56 rounded-full"
+                         src="/assets/images/YunHuang.jpg">
+                    <h3 class="mt-6 text-base font-semibold leading-7 tracking-tight text-gray-900">Dr. Yun Huang</h3>
+                    <p class="text-sm leading-6 text-gray-600">Associate Professor, iSchool</p>
+                </li>
+                <!-- More people... -->
+            </ul>
+        </div>
+
+    </div>
+</section>
+
+<!-- Change the colour #f8fafc to match the previous section colour -->
+<svg class="wave-top" version="1.1" viewBox="0 0 1439 147" xmlns="http://www.w3.org/2000/svg"
+>
+    <g fill="none" fill-rule="evenodd" stroke="none" stroke-width="1">
+        <g fill-rule="nonzero" transform="translate(-1.000000, -14.000000)">
+            <g class="wave" fill="#FFF">
+                <path
+                        d="M1440,84 C1383.555,64.3 1342.555,51.3 1317,45 C1259.5,30.824 1206.707,25.526 1169,22 C1129.711,18.326 1044.426,18.475 980,22 C954.25,23.409 922.25,26.742 884,32 C845.122,37.787 818.455,42.121 804,45 C776.833,50.41 728.136,61.77 713,65 C660.023,76.309 621.544,87.729 584,94 C517.525,105.104 484.525,106.438 429,108 C379.49,106.484 342.823,104.484 319,102 C278.571,97.783 231.737,88.736 205,84 C154.629,75.076 86.296,57.743 0,32 L0,0 L1440,0 L1440,84 Z"
+                ></path>
+            </g>
+            <g fill="#FFFFFF" transform="translate(1.000000, 15.000000)">
+                <g transform="translate(719.500000, 68.500000) rotate(-180.000000) translate(-719.500000, -68.500000) ">
+                    <path d="M0,0 C90.7283404,0.927527913 147.912752,27.187927 291.910178,59.9119003 C387.908462,81.7278826 543.605069,89.334785 759,82.7326078 C469.336065,156.254352 216.336065,153.6679 0,74.9732496"
+                          opacity="0.100000001"></path>
+                    <path
+                            d="M100,104.708498 C277.413333,72.2345949 426.147877,52.5246657 546.203633,45.5787101 C666.259389,38.6327546 810.524845,41.7979068 979,55.0741668 C931.069965,56.122511 810.303266,74.8455141 616.699903,111.243176 C423.096539,147.640838 250.863238,145.462612 100,104.708498 Z"
+                            opacity="0.100000001"
+                    ></path>
+                    <path d="M1046,51.6521276 C1130.83045,29.328812 1279.08318,17.607883 1439,40.1656806 L1439,120 C1271.17211,77.9435312 1140.17211,55.1609071 1046,51.6521276 Z"
+                          opacity="0.200000003"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
+<section class="container mx-auto text-center py-6 mb-12">
+    <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-white">
+        Ready to Enhance Safety Reporting?
+    </h2>
+    <div class="w-full mb-4">
+        <div class="h-1 mx-auto bg-white w-1/6 opacity-25 my-0 py-0 rounded-t"></div>
+    </div>
+    <h3 class="my-4 text-3xl leading-tight">
+        Connect with Us Today!
+    </h3>
+    <button class="mx-auto lg:mx-0 bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
+            onclick="window.showSubscribeModal()">
+        Get In Touch
+    </button>
+</section>
+<!--Footer-->
+<footer class="bg-white">
+    <div class="container mx-auto px-8">
+        <div class="w-full flex flex-col md:flex-row py-6">
+            <div class="flex-1 mb-6 text-black">
+                <a class="text-pink-600 no-underline hover:no-underline font-bold text-2xl lg:text-4xl" href="#">
+                    <!--                    <img class="wshop-logo-btm" src="/assets/images/wshops-logo-h.svg"/>-->
+                    <span>SafeRBot</span>
+                </a>
+            </div>
+            <div class="flex-1">
+                <p class="uppercase text-gray-500 md:mb-6">Links</p>
+                <ul class="list-reset mb-6">
+                    <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                        <a class="no-underline hover:underline text-gray-800 hover:text-pink-500" href="#">FAQ</a>
+                    </li>
+                    <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                        <a class="no-underline hover:underline text-gray-800 hover:text-pink-500" href="#">Help</a>
+                    </li>
+                    <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                        <a class="no-underline hover:underline text-gray-800 hover:text-pink-500" href="#">Support</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="flex-1">
+                <p class="uppercase text-gray-500 md:mb-6">Legal</p>
+                <ul class="list-reset mb-6">
+                    <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                        <a class="no-underline hover:underline text-gray-800 hover:text-pink-500" href="#">Terms</a>
+                    </li>
+                    <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                        <a class="no-underline hover:underline text-gray-800 hover:text-pink-500" href="#">Privacy</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="flex-1">
+                <p class="uppercase text-gray-500 md:mb-6">Social</p>
+                <ul class="list-reset mb-6">
+                    <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                        <a class="no-underline hover:underline text-gray-800 hover:text-pink-500" href="#">Facebook</a>
+                    </li>
+                    <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                        <a class="no-underline hover:underline text-gray-800 hover:text-pink-500" href="#">Linkedin</a>
+                    </li>
+                    <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                        <a class="no-underline hover:underline text-gray-800 hover:text-pink-500" href="#">Twitter</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="flex-1">
+                <p class="uppercase text-gray-500 md:mb-6">Company</p>
+                <ul class="list-reset mb-6">
+                    <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                        <a class="no-underline hover:underline text-gray-800 hover:text-pink-500" href="#">Official
+                            Blog</a>
+                    </li>
+                    <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                        <a class="no-underline hover:underline text-gray-800 hover:text-pink-500" href="#">About Us</a>
+                    </li>
+                    <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                        <a class="no-underline hover:underline text-gray-800 hover:text-pink-500" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="text-center p-2 bg-white text-gray-600">
+        <span>Copyright © 2023 - 2024 </span>
+        <a class="text-gray-600 font-semibold" href="https://socialcomputing.web.illinois.edu/index.html">SALT Lab
+            UIUC</a> & <a class="text-gray-600 font-semibold" href="https://academyai.app/">AcademyAI</a>.
+    </div>
+</footer>
+
+<!-- Subscribe Modal -->
+<div aria-hidden="true"
+     class="fixed top-0 left-0 right-0 z-50 hidden p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-modal md:h-full"
+     id="subscribe-modal"
+     tabindex="-1">
+    <div class="relative w-full h-full max-w-md md:h-auto">
+        <!-- Modal content -->
+        <div class="relative bg-white rounded-lg shadow dark:bg-gray-700">
+            <button class="absolute top-3 right-2.5 text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5 ml-auto inline-flex items-center dark:hover:bg-gray-800 dark:hover:text-white"
+                    onclick="window.closeSubscribeModal()"
+                    type="button">
+                <svg aria-hidden="true" class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
+                     xmlns="http://www.w3.org/2000/svg">
+                    <path clip-rule="evenodd"
+                          d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                          fill-rule="evenodd"></path>
+                </svg>
+                <span class="sr-only">Close modal</span>
+            </button>
+            <div class="p-6 text-center">
+                <h2 class="mt-4 mb-4 text-xl font-medium text-gray-900 dark:text-white">SUBSCRIBE</h2>
+                <div class="mb-6">
+                    <span class="mt-4 mb-4 text-l font-medium text-gray-600 dark:text-white">Coming Soon~ <br/> We will notice you when we areready.</span>
+                    <br/>
+                    <span class="text-l font-medium text-gray-600 dark:text-white">Subscribe to our email news to keep you
+                    updated!</span>
+                </div>
+                <form action="https://email.wshtech.net/subscription/form" class="space-y-6 text-left mb-6"
+                      method="post">
+                    <div>
+                        <input class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white"
+                               id="name" name="name" placeholder="Name (optional)"
+                               type="text"/>
+                    </div>
+                    <div>
+                        <input class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white"
+                               id="email" name="email"
+                               placeholder="Email"
+                               required type="email"/>
+                    </div>
+                    <input name="nonce" type="hidden"/>
+                    <input name="l" type="hidden" value="b1816e56-04b4-4017-91ec-186d5a4de5de"/>
+                    <button class="w-full text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                            type="submit">
+                        Subscribe
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
